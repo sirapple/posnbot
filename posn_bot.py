@@ -16,7 +16,7 @@ WEBHOOK_URL = os.environ.get("WEBHOOK_URL", "").strip()
 TARGET_URL = "https://www.sc.su.ac.th/"
 BOT_NAME = "POSNBot"
 
-MENTION_TEXT = "@everyone"  # Use "@everyone", "<@&ROLE_ID>", or "" for no ping
+MENTION_TEXT = "@here"  # Use "@everyone", "<@&ROLE_ID>", or "" for no ping
 KEYWORDS = ["posn", "สอวน", "โอลิมปิกวิชาการ"]  # Set to [] to alert on ALL updates
 
 CHECK_INTERVAL = 30       # Check every 30 seconds
